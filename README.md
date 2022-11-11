@@ -23,7 +23,7 @@ Win-Raid Forum
 
 
 # Notice:
-
+## I recommend reading everything once before you start
 ## MAKE THE BIOS BACKUP FIRST
 
 - I would not recommend using afuwin to flash the uefi, my recommendation is clearly to use afuwin only for uefi backup.
@@ -68,7 +68,16 @@ Tools:
 
 ![image](https://user-images.githubusercontent.com/16582202/201347829-756f5562-81a5-4c73-9114-1b8350e35977.png)
 
+## OR
+
+Add this to patch.txt 
+note: last character in the line must be a space
+
+# PciBus | Don't downgrade 64-bit BARs to 32-bit
+3C1DE39F-D207-408A-AACC-731CFB7F1DD7 10 P:C70605000000833E067506C70604000000BE01000000:909090909090833E067506909090909090BE01000000 
+
  ### 2b
+  - mmtool
   -  switch to Insert Tab 
   -  look for "Module file" further up the window
   - now choose the rebar.ffs by clicking on BROWSE
