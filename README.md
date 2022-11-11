@@ -1,10 +1,9 @@
-# AsusX99A-II-RezisableBar
-Asus X99-A II with unlocked NVram / modified pcibusdxe / injected rebardxe
+# AsusX99A-II Working RezisableBarwith / Smart Acces memory with Unlimited Size.
 
-This wouldn't be possible without the information gathered from folowing sources 
+## This wouldn't be possible without the information gathered from folowing sources 
 and a Big Thx to icymiguel420 for helping me (Miyconst Hardware Discord)
 
-Sources:
+# Sources:
 
 Resizable BAR on LGA 2011-3 X99 – how to enable and get extra performance
 - https://www.youtube.com/watch?v=vcJDWMpxpjE ( Discord: https://discord.gg/F5qMzdsQGX ) 
@@ -19,9 +18,9 @@ LongSoft / UEFITool
 Win-Raid Forum
 - https://winraid.level1techs.com/t/asus-x99-aii-unlock-msr-0xe2-and-native-nvram/36830
 
-Working Rebar with Unlimited Size.
 
-Notice:
+
+# Notice:
 
 ## MAKE THE BIOS BACKUP FIRST
 
