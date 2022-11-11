@@ -56,7 +56,7 @@ Tools:
 
 ### MAKE THE BIOS BACKUP FIRST
 
-## 2
+## 2a
 - Open Mmtool, 
   - load Image -> ASUS_BIOS.CAP
   -  Replace Tab 
@@ -68,9 +68,9 @@ Tools:
 
 ![image](https://user-images.githubusercontent.com/16582202/201347829-756f5562-81a5-4c73-9114-1b8350e35977.png)
 
-## OR
+## OR skip step 2a 
 
-Add this to patch.txt 
+and add this to patch.txt 
 note: last character in the line must be a space
 
 # PciBus | Don't downgrade 64-bit BARs to 32-bit
