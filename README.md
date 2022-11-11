@@ -57,21 +57,26 @@ Tools:
 - Open Mmtool, 
   - load Image -> ASUS_BIOS.CAP
   -  Replace Tab 
-  -  scroll down until you find "Priebus" in Volume 02
+  -  scroll down until you find "Pciebus" in Volume 02
   - click on pciebus
   -  look for "Module file" further up the window
   - now choose the pcibus.ffs by clicking on BROWSE
   -  click replace
+
+![image](https://user-images.githubusercontent.com/16582202/201347829-756f5562-81a5-4c73-9114-1b8350e35977.png)
+
  ### 2b
   -  switch to Insert Tab 
   -  look for "Module file" further up the window
   - now choose the rebar.ffs by clicking on BROWSE
   - directly below, enter "02" at Vol. index
   -  click insert
-  
+ 
  ### 2c
  - click "save Image"
  -  close mmtool
+
+![image](https://user-images.githubusercontent.com/16582202/201348146-2c96e1a9-1eb8-4b4c-a09a-ebe1e9a04534.png)
 
  ## 3 
 - download the atached patches.txt 
