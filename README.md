@@ -70,7 +70,7 @@ Tools:
 
 ## OR skip step 2a 
 
-and add this to patch.txt 
+and add this to patch.txt  
 note: last character in the line must be a space
 
  #PciBus | Don't downgrade 64-bit BARs to 32-bit
