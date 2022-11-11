@@ -100,7 +100,9 @@ Tools:
 ## 5
  ### A: 
 - flash that cap file using the bios flashback feature 
-## OR
+
+### OR
+
 ### B: 
 - open Efitool, load Patched .cap File 
 - Click -> Action -> Capsule -> Extract body -> save as .bin or .rom
