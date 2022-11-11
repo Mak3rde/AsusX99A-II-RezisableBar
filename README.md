@@ -73,7 +73,7 @@ Tools:
 and add this to patch.txt 
 note: last character in the line must be a space
 
-# PciBus | Don't downgrade 64-bit BARs to 32-bit
+ #PciBus | Don't downgrade 64-bit BARs to 32-bit
 3C1DE39F-D207-408A-AACC-731CFB7F1DD7 10 P:C70605000000833E067506C70604000000BE01000000:909090909090833E067506909090909090BE01000000 
 
  ### 2b
