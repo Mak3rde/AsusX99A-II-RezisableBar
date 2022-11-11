@@ -39,7 +39,7 @@ Tools:
 
 ## If You want to diy 
 
-###How To:
+### How To:
 
 ## 1 
 - Download Latest Bios From Asus website 
