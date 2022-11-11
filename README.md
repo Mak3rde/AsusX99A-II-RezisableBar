@@ -1,9 +1,11 @@
 # AsusX99A-II-RezisableBar
 Asus X99-A II with unlocked NVram / modified pcibusdxe / injected rebardxe
 
+This wouldn't be possible without the information gathered from folowing sources 
+and a Big Thx to icymiguel420 for helping me (Miyconst Hardware Discord)
 
 Sources:
-- https://www.youtube.com/watch?v=vcJDWMpxpjE
+- https://www.youtube.com/watch?v=vcJDWMpxpjE ( Discord: https://discord.gg/F5qMzdsQGX ) 
 - https://github.com/xCuri0/ReBarUEFI
 - https://github.com/LongSoft/UEFITool/releases/tag/0.28.0
 - https://winraid.level1techs.com/t/asus-x99-aii-unlock-msr-0xe2-and-native-nvram/36830
