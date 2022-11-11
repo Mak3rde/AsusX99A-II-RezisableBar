@@ -1,7 +1,6 @@
 # AsusX99A-II Working RezisableBarwith / Smart Acces memory with Unlimited Size.
 
-## This wouldn't be possible without the information gathered from folowing sources 
-### a Big Thx to icymiguel420 for helping me (Miyconst Hardware Discord)
+## This wouldn't be possible without the information gathered from folowing sources  a Big Thx to icymiguel420 for helping me (Miyconst Hardware Discord)
 
 # Sources:
 
