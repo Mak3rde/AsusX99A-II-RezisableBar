@@ -30,7 +30,7 @@ Win-Raid Forum
 Tools: 
 - MMtool
 - uefitool + uefipatch -> https://github.com/LongSoft/UEFITool/releases/tag/0.28.0
-- bios file
+- bios file -> https://www.asus.com/us/supportonly/x99-a%20ii/helpdesk_bios/
 
 ### ready to use efi Downloads:  
 - [X99-A-II-ASUS-2101_CAP_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip](https://github.com/Mak3rde/AsusX99A-II-RezisableBar/files/9990127/X99-A-II-ASUS-2101_CAP_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip)
