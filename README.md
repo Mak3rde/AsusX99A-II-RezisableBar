@@ -100,16 +100,8 @@ Tools:
 ## 5
  ### A: 
 - flash that cap file using the bios flashback feature 
-### OR
+## OR
 ### B: 
 - open Efitool, load Patched .cap File 
 - Click -> Action -> Capsule -> Extract body -> save as .bin or .rom
-- flash to bios 
-
-
-
-**System**
- - Motherboard: Asus X99A-2 (X99-A II)
- - BIOS Version: 2101 (type: UEFI)
- - GPU: PowerColor AMD Radeon RX 6950 XT
- - Operating System: Windows 10 Pro 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)
+- flash .bin/.rom to bios chip
