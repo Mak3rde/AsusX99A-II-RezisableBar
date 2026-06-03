@@ -186,15 +186,6 @@ Check your BIOS and operating system settings:
 - Check CSM/Secure Boot settings if the system does not boot as expected.
 - Verify in the GPU driver or tools such as GPU-Z that Resizable BAR is active.
 
-## Repository Maintenance Notes
-
-Recommended future cleanup:
-
-- Move downloadable BIOS ZIPs into GitHub Releases if this repository is mirrored back to GitHub.
-- Add tested CPU/GPU combinations.
-- Add exact BIOS Flashback filename requirements for the X99-A II.
-- Keep third-party tools linked instead of vendored.
-
 ## License
 
 The written documentation in this repository is licensed under CC BY 4.0. Third-party tools, BIOS files, firmware modules, screenshots, and linked downloads remain under their respective owners' licenses and terms.
