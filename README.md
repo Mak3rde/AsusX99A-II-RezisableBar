@@ -3,7 +3,7 @@
 Notes, files, and steps for enabling Resizable BAR / Smart Access Memory on the
 ASUS X99-A II by using a modified BIOS with ReBarUEFI.
 
-![Resizable BAR screenshot](https://user-images.githubusercontent.com/16582202/201349183-7a76d8a5-3e3a-4b59-bf30-429b5067ad57.png)
+![Resizable BAR screenshot](assets/screenshots/resizable-bar-enabled.png)
 
 ## Warning
 
@@ -51,13 +51,18 @@ sources and help from `icymiguel420` on the Miyconst Hardware Discord.
 
 ## Ready-Made Downloads
 
-These files were attached to the original GitHub repository.
+These files were copied from the original GitHub repository attachments into
+`releases/v2101-rebar/`.
 
-- [X99-A-II-ASUS-2101_CAP_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip](https://github.com/Mak3rde/AsusX99A-II-RezisableBar/files/9990127/X99-A-II-ASUS-2101_CAP_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip)
-- [X99-A-II-ASUS-2101_ROM_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip](https://github.com/Mak3rde/AsusX99A-II-RezisableBar/files/9990130/X99-A-II-ASUS-2101_ROM_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip)
+- [X99-A-II-ASUS-2101_CAP_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip](releases/v2101-rebar/X99-A-II-ASUS-2101_CAP_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip)
+- [X99-A-II-ASUS-2101_ROM_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip](releases/v2101-rebar/X99-A-II-ASUS-2101_ROM_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip)
 
-Recommended improvement: move these files to GitHub Releases and add SHA256
-checksums.
+SHA256:
+
+```text
+e6e94f1e60a1f5e15804b0472fb588b10ef6affa587c992afa6a3348f6833b36  X99-A-II-ASUS-2101_CAP_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip
+9dd286c11aed197d85d1bcf209bb5a3d1b99ab8035f2f1fd75681436f7f0a868  X99-A-II-ASUS-2101_ROM_STOCKROM_64-bit_BAR_ENABLED_rebar_driver_injected_barsize_Patched.zip
+```
 
 ## Required Tools
 
@@ -70,8 +75,15 @@ checksums.
 
 Downloads used by the original guide:
 
-- [patches_txt.zip](https://github.com/Mak3rde/AsusX99A-II-RezisableBar/files/9990133/patches_txt.zip)
-- [X99-A-II-ASUS-2101_pciebusffs_rebardxeffs.zip](https://github.com/Mak3rde/AsusX99A-II-RezisableBar/files/9990135/X99-A-II-ASUS-2101_pciebusffs_rebardxeffs.zip)
+- [patches_txt.zip](releases/v2101-rebar/patches_txt.zip)
+- [X99-A-II-ASUS-2101_pciebusffs_rebardxeffs.zip](releases/v2101-rebar/X99-A-II-ASUS-2101_pciebusffs_rebardxeffs.zip)
+
+SHA256:
+
+```text
+01ab22626392ffe0276ba173e47ae36ffb0ad7cced51d79887df8989e5f3691b  patches_txt.zip
+a7d897049f0ac265badc3e82857bc47756086030b5b332abbce3bd917b2b293b  X99-A-II-ASUS-2101_pciebusffs_rebardxeffs.zip
+```
 
 Put all files in the same working directory.
 
@@ -95,7 +107,7 @@ Put all files in the same working directory.
 6. Choose the patched `PciBus.ffs` as the module file.
 7. Click `Replace`.
 
-![MMTool replace screenshot](https://user-images.githubusercontent.com/16582202/201347829-756f5562-81a5-4c73-9114-1b8350e35977.png)
+![MMTool replace screenshot](assets/screenshots/mmtool-replace-pcibus.png)
 
 Alternative: instead of replacing `PciBus.ffs`, add this patch to `patches.txt`.
 The last character in the line must be a space.
@@ -114,7 +126,7 @@ The last character in the line must be a space.
 5. Save the image.
 6. Close MMTool.
 
-![MMTool insert screenshot](https://user-images.githubusercontent.com/16582202/201348146-2c96e1a9-1eb8-4b4c-a09a-ebe1e9a04534.png)
+![MMTool insert screenshot](assets/screenshots/mmtool-insert-rebardxe.png)
 
 ### 4. Apply The NVRAM Whitelist Patch
 
@@ -178,8 +190,7 @@ Check your BIOS and operating system settings:
 
 Recommended future cleanup:
 
-- Move downloadable BIOS ZIPs into GitHub Releases.
-- Add SHA256 checksums for every BIOS-related ZIP.
+- Move downloadable BIOS ZIPs into GitHub Releases if this repository is mirrored back to GitHub.
 - Add tested CPU/GPU combinations.
 - Add exact BIOS Flashback filename requirements for the X99-A II.
 - Keep third-party tools linked instead of vendored.
